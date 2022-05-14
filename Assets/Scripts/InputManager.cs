@@ -39,7 +39,9 @@ public class InputManager : MonoBehaviour {
     for (int i = 0; i < inputTargets.Length; i++)
     {
       if(Input.GetKeyDown(inputTargets[i].keycode)){
+        currentTarget.Diselect();
         currentTarget = inputTargets[i].target;
+        currentTarget.Selected();
         return;
       }
     }
