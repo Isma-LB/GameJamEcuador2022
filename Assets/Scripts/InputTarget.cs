@@ -4,4 +4,5 @@ using UnityEngine;
 public class InputTarget : ScriptableObject {
   public float horizontalAxis = 0;
   public bool jump = false;
+  public bool crouch = false;
 }
