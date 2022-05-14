@@ -15,6 +15,9 @@ public class InputTarget : ScriptableObject {
     }
   }
   public void Diselect(){
+    horizontalAxis = 0;
+    jump = false;
+    crouch = false;
     if(onDiselect != null){
       onDiselect.Invoke();
     }
