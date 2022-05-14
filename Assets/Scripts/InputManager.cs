@@ -4,6 +4,8 @@ using UnityEngine;
 public class InputManager : MonoBehaviour {
   [SerializeField] InputHandler[] inputTargets = null;
   InputTarget currentTarget;
+  bool upArrow = false;
+  bool downArrow = false;
 
   private void Start() {
     currentTarget = inputTargets[0].target;
@@ -14,7 +16,22 @@ public class InputManager : MonoBehaviour {
     checkTargets();
 
     currentTarget.horizontalAxis = Input.GetAxisRaw("Horizontal");
-    currentTarget.jump = Input.GetKeyDown(KeyCode.Space);
+
+    float verticalAxis = Input.GetAxisRaw("Vertical");
+    if(verticalAxis > 0.5 && !upArrow){
+      currentTarget.jump = true;
+      upArrow = true;
+    }
+    else if(verticalAxis < 0.5){
+      upArrow = false;
+    }
+    if(verticalAxis < -0.5 && !downArrow){
+      currentTarget.crouch = true;
+      downArrow = true;
+    }
+    else if(verticalAxis < 0.5){
+      downArrow = false;
+    }
   }
 
   private void checkTargets()
@@ -22,7 +39,9 @@ public class InputManager : MonoBehaviour {
     for (int i = 0; i < inputTargets.Length; i++)
     {
       if(Input.GetKeyDown(inputTargets[i].keycode)){
+        currentTarget.Diselect();
         currentTarget = inputTargets[i].target;
+        currentTarget.Selected();
         return;
       }
     }
