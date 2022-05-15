@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,19 +10,40 @@ public class GameManager : MonoBehaviour
     [SerializeField] BrokenPipe[] brokenPipes = null;
     [SerializeField] EndCanvasController canvasController = null;
     bool _completed = false;
+    int currentIndex;
+    private void Start() {
+         currentIndex = SceneManager.GetActiveScene().buildIndex;
+         Time.timeScale = 1;
+    }
     void Update()
     {
-        if(isLevelCompleted()){
+        if(isLevelCompleted() && !_completed){
+            AudioManager.Play(AudioEffects.levelCompleted);
             canvasController.Activate(levelNumber);
             _completed = true;
             PlayerPrefs.SetInt("currentLevel", SceneManager.GetActiveScene().buildIndex);
         }
         if(_completed && Input.anyKeyDown){
-            int currentIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentIndex + 1);
         }
+        //reset 
+        if(Input.GetKeyDown(KeyCode.F)){
+            ReloadScene();
+        }
     }
-    bool isLevelCompleted(){
+
+    void ReloadScene(){
+        SceneManager.LoadScene(currentIndex);
+    }
+  internal void GameOver()
+  {
+      AudioManager.Play(AudioEffects.gameOver);
+      Invoke("ReloadScene",1);
+      
+    //   Time.timeScale = 0;
+  }
+
+  bool isLevelCompleted(){
         for (int i = 0; i < brokenPipes.Length; i++)
         {
             if(!brokenPipes[i].isFixed){
