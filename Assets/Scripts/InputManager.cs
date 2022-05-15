@@ -21,7 +21,7 @@ public class InputManager : MonoBehaviour {
     if(verticalAxis > 0.5 && !upArrow){
       currentTarget.jump = true;
       upArrow = true;
-      AudioManager.Play(AudioEffects.jump);
+      
     }
     else if(verticalAxis < 0.5){
       upArrow = false;

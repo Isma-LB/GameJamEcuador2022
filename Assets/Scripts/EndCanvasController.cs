@@ -8,12 +8,13 @@ public class EndCanvasController : MonoBehaviour
     [SerializeField] CanvasGroup[] characters = null;
     [SerializeField, Range(0,1f)] float activeAlpha = 1;
     [SerializeField, Range(0,1f)] float lockedAlpha = 0.2f;
+    [SerializeField] GameObject panel = null;
 
     private void Awake() {
-        gameObject.SetActive(false);
+        panel.SetActive(false);
     }
     public void Activate(int level){
-        gameObject.SetActive(true);
+        panel.SetActive(true);
         for (int i = 0; i < characters.Length; i++)
         {
             characters[i].alpha = i < level? activeAlpha : lockedAlpha;

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3637927719340350838}
   m_Layer: 6
   m_Name: Armadillo
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6528697542805296144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.5, y: -3.52, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 6528697542931135232}
   - {fileID: 6528697544277600725}
@@ -105,7 +105,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8d108721fbad03b48824061f2442a323, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9443912d4b436e49aa449bfe84c6286, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 400
+  m_JumpForce: 525
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
   m_AirControl: 1
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 6528697542805296146}
   input: {fileID: 11400000, guid: b3319ef96b84fd34aa4fc28b7883be78, type: 2}
-  speed: 40
+  speed: 100
 --- !u!95 &3637927719340350838
 Animator:
   serializedVersion: 3
