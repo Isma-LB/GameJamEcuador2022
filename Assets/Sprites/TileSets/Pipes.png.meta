@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 9bdcfac1f67e3de408aa7c1dab542176
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3878557786174838139
+    second: ground_0
+  - first:
+      213: -4419227343285247731
+    second: ground_1
+  - first:
+      213: -1977380741081267030
+    second: ground_2
+  - first:
+      213: 2270332835960527861
+    second: ground_3
+  - first:
+      213: 5602472716659199906
+    second: ground_4
+  - first:
+      213: -5561606140109812095
+    second: ground_5
+  - first:
+      213: 1269115465126947162
+    second: ground_6
+  - first:
+      213: 6922181128366143233
+    second: ground_7
+  - first:
+      213: 6955847195254428025
+    second: pipe
+  - first:
+      213: 3215127950514980561
+    second: ground_9
+  - first:
+      213: 1481100579729305086
+    second: ground_10
+  - first:
+      213: 1363345801621341485
+    second: ground_11
+  - first:
+      213: 3809333609213854930
+    second: ground_12
+  - first:
+      213: -7568449251786254984
+    second: ground_13
+  - first:
+      213: -9118316241333876284
+    second: ground_14
+  - first:
+      213: 6740115482885086893
+    second: ground_15
+  - first:
+      213: 90981220031357130
+    second: ground_16
+  - first:
+      213: -1315250992843845413
+    second: ground_17
+  - first:
+      213: -3981471855960594048
+    second: ground_18
+  - first:
+      213: -3950467699495194761
+    second: ground_19
+  - first:
+      213: 7854021675976469836
+    second: ground_20
+  - first:
+      213: -8785357333018646877
+    second: ground_21
+  - first:
+      213: 7085997053283165259
+    second: ground_22
+  - first:
+      213: -1694574479374107431
+    second: ground_23
+  - first:
+      213: 8865799217249733882
+    second: ground_24
+  - first:
+      213: 3097243897307072021
+    second: ground_25
+  - first:
+      213: -1586680503956681919
+    second: ground_26
+  - first:
+      213: 9102816155748778113
+    second: ground_27
+  - first:
+      213: -7672730242064298688
+    second: ground_28
+  - first:
+      213: 7101863727412755880
+    second: ground_29
+  - first:
+      213: -840250969713169138
+    second: ground_30
+  - first:
+      213: 8375839170296192244
+    second: ground_31
+  - first:
+      213: 4174566983893111491
+    second: ground_32
+  - first:
+      213: 1904060138891370704
+    second: ground_33
+  - first:
+      213: -6006251938497725221
+    second: ground_34
+  - first:
+      213: 4931018249848317950
+    second: ground_35
+  - first:
+      213: 5304507143118249764
+    second: ground_36
+  - first:
+      213: 5529907436540441323
+    second: ground_37
+  - first:
+      213: -5364719489291505224
+    second: ground_38
+  - first:
+      213: -8724001009564104614
+    second: ground_39
+  - first:
+      213: -5136611472538014950
+    second: ground_40
+  - first:
+      213: -3044412672431463691
+    second: ground_41
+  - first:
+      213: -8506579927260412776
+    second: ground_42
+  - first:
+      213: 544771733908418354
+    second: ground_43
+  - first:
+      213: -8900118926953661439
+    second: ground_44
+  - first:
+      213: -6702805978608602911
+    second: ground_45
+  - first:
+      213: -3784381865699015214
+    second: ground_46
+  - first:
+      213: 5433729868459186713
+    second: ground_47
+  - first:
+      213: -630529561008607627
+    second: ground_48
+  - first:
+      213: -2124677286185207921
+    second: ground_49
+  - first:
+      213: -5290677455234809761
+    second: ground_50
+  - first:
+      213: 489222406791441518
+    second: ground_51
+  - first:
+      213: -4361299955423512672
+    second: ground_52
+  - first:
+      213: 7679125179148228856
+    second: ground_53
+  - first:
+      213: 4415801018407659097
+    second: ground_54
+  - first:
+      213: 6608921570730050656
+    second: ground_55
+  - first:
+      213: -6369698566678929371
+    second: ground_56
+  - first:
+      213: 7804793858195537307
+    second: ground_57
+  - first:
+      213: 6994635197881572818
+    second: ground_58
+  - first:
+      213: -5779317303154764765
+    second: ground_59
+  - first:
+      213: -4819543625557584518
+    second: ground_60
+  - first:
+      213: 7735829983123371155
+    second: ground_61
+  - first:
+      213: 5459933173751511008
+    second: ground_62
+  - first:
+      213: 1501984360869662708
+    second: Pipes_3
+  - first:
+      213: -2572312214757257879
+    second: Pipes_7
+  - first:
+      213: -2357145723576407844
+    second: Pipes_11
+  - first:
+      213: -2807574050081485908
+    second: Pipes_15
+  - first:
+      213: -4479869702352852294
+    second: Pipes_19
+  - first:
+      213: -776548498748465775
+    second: Pipes_23
+  - first:
+      213: 8024520158252798639
+    second: Pipes_24
+  - first:
+      213: 4223568010484521870
+    second: BrokenPipe
+  - first:
+      213: 8693017612008659093
+    second: Pipes_26
+  - first:
+      213: -5828433087770691687
+    second: Pipes_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 250
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pipes_3
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff04df71de18d410800000000000000
+      internalID: 1501984360869662708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_7
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dcefb5baf4d4cd0800000000000000
+      internalID: -2572312214757257879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_11
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8a56ef37cb94fd0800000000000000
+      internalID: -2357145723576407844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_15
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc940d64e7909d0800000000000000
+      internalID: -2807574050081485908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_19
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1000
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba2937bd3e44d1c0800000000000000
+      internalID: -4479869702352852294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_23
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 500
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d1c3531452935f0800000000000000
+      internalID: -776548498748465775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_24
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa29e957192dc5f60800000000000000
+      internalID: 8024520158252798639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrokenPipe
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b12a56ab02d9a30800000000000000
+      internalID: 4223568010484521870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_26
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5989df5e57dc3a870800000000000000
+      internalID: 8693017612008659093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipes_27
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9977b4eacfe3d1fa0800000000000000
+      internalID: -5828433087770691687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
