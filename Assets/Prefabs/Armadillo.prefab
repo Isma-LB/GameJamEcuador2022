@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6528697542805296146}
   - component: {fileID: 6528697542805296147}
   - component: {fileID: 3637927719340350838}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Armadillo
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6528697542931135232}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6528697544277600725}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: CealingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
