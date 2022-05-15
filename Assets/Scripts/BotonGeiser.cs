@@ -24,13 +24,11 @@ public class BotonGeiser : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         animatorGeiser.Play("inicio");
-        Debug.Log("Geiser encendido");
         estado = true;
     }
 
     public void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Geiser apagado");
         estado = false;
         animatorGeiser.Play("parar");
     }

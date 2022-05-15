@@ -31,6 +31,11 @@ public class CharacterController2D : MonoBehaviour
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
 
+	//aniamtor del objeto
+	Animator animator;
+	//booleano para comprobar que dejo de moverse
+	bool seMovio = false;
+
 	private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -40,6 +45,8 @@ public class CharacterController2D : MonoBehaviour
 
 		if (OnCrouchEvent == null)
 			OnCrouchEvent = new BoolEvent();
+	
+		animator = GetComponent<Animator>();
 	}
 
 	private void FixedUpdate()
@@ -109,6 +116,24 @@ public class CharacterController2D : MonoBehaviour
 
 			// Move the character by finding the target velocity
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+
+            // animations
+            if (targetVelocity != Vector3.zero)
+            {
+				animator.Play("Caminar");
+				seMovio = true;
+            }
+            else if(seMovio && move == 0 && m_Grounded)
+            {
+                animator.Play("Parar");
+				seMovio = false;
+            }
+
+			//if(m_Grounded)
+   //         {
+			//	Debug.Log("aire");
+   //         }
+
 			// And then smoothing it out and applying it to the character
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 
