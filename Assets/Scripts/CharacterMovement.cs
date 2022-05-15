@@ -12,7 +12,7 @@ public class CharacterMovement : MonoBehaviour {
     input.jump = false;
   }
   private void Update() {
-    if(transform.position.y < -10 && !isDead){
+    if(transform.position.y < -15 && !isDead){
       isDead = true;
       FindObjectOfType<GameManager>().GameOver();
     }
