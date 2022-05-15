@@ -7,7 +7,8 @@ public class MenuPrincipal : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        int currentLevel = PlayerPrefs.GetInt("currentLevel",SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(currentLevel + 1);
     }
 
     public void Salir()
